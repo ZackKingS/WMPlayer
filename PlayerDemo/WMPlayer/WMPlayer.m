@@ -268,21 +268,21 @@ static void *PlayViewStatusObservationContext = &PlayViewStatusObservationContex
     
     
     //_fullScreenBtn
-    self.fullScreenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.fullScreenBtn.showsTouchWhenHighlighted = YES;
-    [self.fullScreenBtn addTarget:self action:@selector(fullScreenAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.fullScreenBtn setImage:WMPlayerImage(@"fullscreen") forState:UIControlStateNormal];
-    [self.fullScreenBtn setImage:WMPlayerImage(@"nonfullscreen") forState:UIControlStateSelected];
-    [self.bottomView addSubview:self.fullScreenBtn];
-    //autoLayout fullScreenBtn
-    [self.fullScreenBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.right.equalTo(self.bottomView).with.offset(0);
-        make.height.mas_equalTo(50);
-        make.bottom.equalTo(self.bottomView).with.offset(0);
-        make.width.mas_equalTo(50);
-        
-    }];
-    
+//    self.fullScreenBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//    self.fullScreenBtn.showsTouchWhenHighlighted = YES;
+//    [self.fullScreenBtn addTarget:self action:@selector(fullScreenAction:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.fullScreenBtn setImage:WMPlayerImage(@"fullscreen") forState:UIControlStateNormal];
+//    [self.fullScreenBtn setImage:WMPlayerImage(@"nonfullscreen") forState:UIControlStateSelected];
+//    [self.bottomView addSubview:self.fullScreenBtn];
+//    //autoLayout fullScreenBtn
+//    [self.fullScreenBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.right.equalTo(self.bottomView).with.offset(0);
+//        make.height.mas_equalTo(50);
+//        make.bottom.equalTo(self.bottomView).with.offset(0);
+//        make.width.mas_equalTo(50);
+//        
+//    }];
+//    
     
     
     
